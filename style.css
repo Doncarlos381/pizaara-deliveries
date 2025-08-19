@@ -1,0 +1,218 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: white;
+      color: black;
+      line-height: 1.6;
+
+    }
+    li{
+      list-style:none;
+    }
+    ul{
+      display:flex;
+      gap:2em;
+
+      
+    }
+    ul li{
+      margin-top:0.5em;
+    }
+
+    header {
+      background: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      margin-top:1em;
+      align-items: center;
+      
+      box-shadow:0.5px 0.5px 0px grey;
+      
+    }
+    .shop{
+      margin-right:0.5em;
+    }
+
+    .button{
+      font-size: 1em;
+      padding:0.5em;
+      color:white;
+    background-color:orange;
+      border:none;
+    }
+
+    .logo {
+      text-align:center ;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: right;
+      
+      }
+
+    .hero{
+      display:flex;
+      justify-content:end;
+      gap:30%;
+    }
+    .stats{
+      display:flex;
+      gap:2em;
+    }
+    .cutlery{
+      background-color:black;
+      border-radius:50%;
+      height:60px;
+      width:60px;
+    }
+    .cutlery img{
+      object-fit:contain;
+      width:40px;
+      height:40px;
+      margin:0.5em;
+
+    }
+    .stats-1{
+      border:1px solid black;
+      flex-direction:column;
+      gap:2em;
+      border:none;
+      background-color: rgb(243,237,237 );
+      box-shadow: 0.5px 0.5px 0.5px grey;
+      border-radius: 20px;
+      padding-top:2em;
+      padding-bottom: 2em;
+      padding-left:2em;
+      padding-right:1em;
+      width:75%;
+    }
+    .small-images{
+      display:flex;
+    }
+    .pizza{
+      width:100px;
+    }
+    .new{
+      margin-left:50%;
+    }
+    .help{
+      color:orange;
+    }
+    .categories{
+      margin-left:6%;
+      font-weight:bolder;
+      font-size:1.5em;
+    }
+    .item{
+      display:flex;
+      gap:2em;
+    }
+    .list{
+      order:1px solid black;
+      flex-direction:column;
+      gap:2em;
+      border:none;
+      background-color: rgb(243,237,237 );
+      box-shadow: 0.5px 0.5px 0.5px grey;
+      border-radius: 20px;
+      padding-top:2em;
+      padding-bottom: 2em;
+      padding-left:2em;
+      padding-right:
+      
+
+    }
+    .btn{
+      margin-left:50%;
+      background-color:orange;
+      color:white;
+      border:none;
+    }
+    .why-us{
+      display:flex;
+      
+    }
+    .part{
+      display:flex;
+      border:1px ;
+      border-radius:7px;
+      padding-bottom:2em;
+      padding-top:2em;
+      width:70%;
+      margin-top:4em;
+    
+      
+    }
+    .best{
+      color:orange;
+    }
+    .text{
+      margin-left:1em;
+    }
+    .why-content{
+    background-color:black;
+    border-radius:50%;
+  
+    gap:30px;
+
+      
+    }
+    .home{
+       font-color:orange;
+    }
+
+
+.support {
+  text-align: center;
+  padding: 50px 5%;
+}
+.support-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.support-items div {
+  text-align: left;
+}
+
+
+.site-footer {
+  background: #222;
+  color: #eee;
+  padding: 40px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.site-footer img {
+  margin-right: 10px;
+}
+
+.footer-links a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.footer-links a:hover {
+  color: goldenrod;
+}
+
+.newsletter {
+  text-align: right;
+}
+.newsletter input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.newsletter button {
+  margin-left: 5px;
+}
